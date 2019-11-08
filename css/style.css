@@ -1,0 +1,24 @@
+#hero-1{
+    background: url(/images/marcel-schreiber-iZI5qcR7f8s-unsplash.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.text-color{
+    color: #B21D34;
+}
+
+.grey-background{
+    background-color: #AFA1A1;
+}
+
+.title-border1{
+    max-width: 269px;
+    max-height: 85px;
+}
+
+.con2-height{
+    height: 376px;
+}
+
