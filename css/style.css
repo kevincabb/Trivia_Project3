@@ -12,8 +12,15 @@
     width: 100%;
 }
 
-#hero-2{
+#hero-3{
     background: url(/images/abhishek-chandra-kXJksx1kdJ0-unsplash.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+#hero-4{
+    background: url(/images/jc-dela-cuesta-itqkcMEix64-unsplash.jpg);
     background-size: cover;
     height: 100vh;
     width: 100%;
