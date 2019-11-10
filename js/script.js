@@ -13,5 +13,9 @@ function loadJSON() {
     xmlhttp.send();
 }
 
+let scoreText = document.getElementById('aBtn');
+let backMoBtn = document.getElementById('backMoBtn').addEventListener('click', function(){
+    scoreText.innerText = "Score: 10";
+});
 //Call JSON
 loadJSON();

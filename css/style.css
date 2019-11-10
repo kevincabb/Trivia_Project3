@@ -26,6 +26,13 @@
     width: 100%;
 }
 
+#hero-5{
+    background: url(/images/jc-gellidon-XmYSlYrupL8-unsplash.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
 .text-color{
     color: #B21D34;
 }
@@ -46,7 +53,35 @@
     height: 376px;
 }
 
+.con3-height{
+    height: 376px;
+}
+
 .button-size{
     width: 90px;
+}
+
+.score-style{
+    max-width: 130px;
+}
+
+.score-text{
+    font-size: 22px;
+}
+
+.row-height{
+    height: 65px;
+}
+
+.row2-height{
+    height: 100px;
+}
+.questions-box{
+    max-width: 500px;
+    height: 50px;
+}
+
+.answerBtn{
+    width: 468px;
 }
 
