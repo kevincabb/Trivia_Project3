@@ -218,7 +218,7 @@ function loadGamePage(info) {
         }
     }
 
-
+    
     //event listener to display next set of questions
     next.addEventListener('click', function (e) {
         stop(time);
