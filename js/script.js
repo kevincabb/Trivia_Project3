@@ -205,7 +205,7 @@ function loadGamePage(info) {
         clearInterval(time);
     }
 
-    //function to 
+    //function to set timer accordingly to the difficulty chosen
     function setTriviaTimer() {
         if (mode == "easy") {
             triviaTimer = 15;
