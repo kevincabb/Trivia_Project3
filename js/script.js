@@ -123,6 +123,7 @@ function loadGamePage(info) {
 
     //Declare local varibles
     let questionObj = [];
+    console.log(questionObj);
     let count = 0;
     let qNum = 0;
     let triviaTimer = 15;
@@ -163,16 +164,18 @@ function loadGamePage(info) {
 
     //Grab the questions and push to new questions array
     function questions(info) {
+        let arrayLength = 50;
         for (let i = 0; i < totalQuestions; i++) {
-            randomNum();
+            randomNum(arrayLength);
             questionObj.push(info.questions[ranNum]);
             info.questions.splice(ranNum, 1);
+            arrayLength--;
         }
     }
 
     //function for a random position
-    function randomNum() {
-        ranNum = Math.floor(Math.random() * 20);
+    function randomNum(arrLength) {
+        ranNum = Math.floor(Math.random() * arrLength);
     }
 
     //function to handle displaying questions and answers to the screen
@@ -273,7 +276,6 @@ function loadGamePage(info) {
             if (btns[i].innerText == questionObj[qNum].correct) {
                 btns[i].innerText = "correct";
                 correctAns += 1;
-                console.log(correctAns);
                 aText.disabled = true;
                 bText.disabled = true;
                 cText.disabled = true;
