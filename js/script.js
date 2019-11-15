@@ -190,7 +190,7 @@ function loadGamePage(info) {
     //function to set timer
     function checkTime() {
         if (triviaTimer >= 0) {
-            timer.innerText = `Timer: ${triviaTimer--}`;
+            timer.innerText = `Timer:  ${triviaTimer--}`;
         } else {
             aText.disabled = true;
             bText.disabled = true;
