@@ -64,7 +64,7 @@ function loadOptionPage(info) {
     inject.innerHTML = info;
     let backToMenu = document.getElementById('backOpBtn');
     backToMenu.addEventListener('click', function(e){
-        loadHTML("../pages/menu.html");
+        loadHTML("./pages/menu.html");
     });
     
     let easy = document.getElementById('easy');
@@ -146,7 +146,7 @@ function loadGamePage(info) {
     //Load JSON file
     function loadJSON() {
         let xmlhttp = new XMLHttpRequest();
-        url = "../data/data.json";
+        url = "./data/data.json";
 
         xmlhttp.onreadystatechange = function () {
             if (this.readyState == 4 && this.status == 200) {

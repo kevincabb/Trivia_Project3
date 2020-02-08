@@ -1,19 +1,19 @@
 #hero-1{
-    background: url(/images/marcel-schreiber-iZI5qcR7f8s-unsplash.jpg);
+    background: url(./images/marcel-schreiber-iZI5qcR7f8s-unsplash.jpg);
     background-size: cover;
     height: 100vh;
     width: 100%;
 }
 
 #hero-2{
-    background: url(/images/tommy-boudreau-BHx3Mk4LEYI-unsplash.jpg);
+    background: url(./images/tommy-boudreau-BHx3Mk4LEYI-unsplash.jpg);
     background-size: cover;
     height: 100vh;
     width: 100%;
 }
 
 #hero-3{
-    background: url(/images/abhishek-chandra-kXJksx1kdJ0-unsplash.jpg);
+    background: url(./images/abhishek-chandra-kXJksx1kdJ0-unsplash.jpg);
     background-size: cover;
     height: 100vh;
     width: 100%;
@@ -34,7 +34,7 @@
 }
 
 #hero-6{
-    background: url(/images/mathieu-chassara-73uiBbPXwR8-unsplash.jpg);
+    background: url(./images/mathieu-chassara-73uiBbPXwR8-unsplash.jpg);
     background-size: cover;
     height: 100vh;
     width: 100%;
